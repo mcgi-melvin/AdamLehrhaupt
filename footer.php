@@ -3,19 +3,13 @@
         <div class="flex-container" style="width: 100%; display: flex; justify-content: center; align-items: flex-start;">
             <div class="left-logo-container" style="">
                 <div class="box" style="">
-                    <a href=""> <img src="" alt="">Logo</a>
+                    <?php the_custom_logo(); ?>
                 </div>
             </div>
             <div class="right-container" style="">
                 <div class="links-container" style="display: flex; justify-content: flex-start; align-items: flex-start; flex-direction: column; row-gap: 10px;">
                     <h5 class="nav-header" style="color: #428BCA; font-size: 20px; padding-bottom: 20px; font-weight: bold;">Pages</h5>
-                    <a href="https://adamlehrhaupt.com/home-new/" class="links">Home</a>
-                    <a href="https://adamlehrhaupt.com/about-new/" class="links">About</a>
-                    <a href="https://adamlehrhaupt.com/books-new/" class="links">Books</a>
-                    <a href="#" class="links">Visits</a>
-                    <a href="#" class="links">Guides/Activities</a>
-                    <a href="https://adamlehrhaupt.com/events-new/" class="links">Events</a>
-                    <a href="https://adamlehrhaupt.com/contact-new/" class="links">Contact</a>
+                    <?php wp_nav_menu(['theme_location' => 'footer']) ?>
                 </div>
                 <div class="links-container" style="display: flex; justify-content: flex-start; align-items: flex-start; flex-direction: column; row-gap: 10px;">
                     <h5 class="nav-header" style="color: #428BCA; font-size: 20px; padding-bottom: 20px; font-weight: bold;">Contact</h5>
@@ -56,7 +50,7 @@
             <div class="nav-items-flex-container" style="display: flex; justify-content: center; align-items: center; width: 100%;">
                 <div class="nav-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
                     <div class="copyright-container" style="width: 100%; display: flex; justify-content: center; align-items: center;">
-                        <h5 class="copyright" style="font-size: 17px; color: #FFFFFF;">© Adam Lehrhaupt 2024. All rights reserved.</h5>
+                        <h5 class="copyright" style="font-size: 17px; color: #FFFFFF;">© <?= get_bloginfo('name') ?> <?= date('Y') ?>. All rights reserved.</h5>
                     </div>
                     <div class="copyright-links-container" style="width: 100%; display: flex; justify-content: center; align-items: center; column-gap: 6px;">
                         <a class="terms" href="#" style="font-size: 17px; text-decoration: none; color: #FFFFFF;">Terms and Conditions</a>
