@@ -1,5 +1,5 @@
 </main>
-<nav>
+<footer>
     <div class="main-footer-container" style="width: 100%; height: auto; background-color: #3A6D8C;">
         <div class="flex-container" style="width: 100%; display: flex; justify-content: center; align-items: flex-start;">
             <div class="left-logo-container" style="">
@@ -78,7 +78,7 @@
             </div>
         </div>
     </div>
-</nav>
+</footer>
 
 <?php wp_footer(); ?>
 </body>

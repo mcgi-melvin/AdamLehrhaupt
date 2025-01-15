@@ -124,9 +124,8 @@ footer, .right-container {
     width: 75%;
     padding: 50px 70px;
 }
-footer .left-logo-container {
+.left-logo-container {
     width: 25% !important;
-    padding: 50px 0 !important;
 }
 footer, .logo-container, .box {
     display: flex !important;
@@ -139,8 +138,12 @@ footer, .logo-container, .box {
     background-color: #fff !important;
     border-radius: 0 0 20px 0 !important;
 }
+.box > img {
+    width: auto !important;
+}
 .copyright, .terms, .policy {
     font-size: 13px !important;
+    text-align: center !important;
 }
 .copyright-links-container > a:hover {
     color: #6A9FCD !important;
@@ -170,6 +173,7 @@ footer, .logo-container, .box {
     flex-direction: column;
     row-gap: 10px !important;
     margin-bottom: 0 !important;
+    list-style: none !important;
 }
 .sub-menu {
     list-style: none !important;
