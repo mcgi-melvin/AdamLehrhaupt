@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <?php wp_head(); ?>
 </head>
@@ -11,9 +10,11 @@
     <header>
         <div class="header-top">
             <a href="<?= site_url() ?>">
+                <?php if( $image = get_theme_mod('fl-logo-image') ): ?>
                 <div class="img-container">
-                    <?php the_custom_logo(); ?>
+                    <img width="100%" height="100%" src="<?= $image ?>" alt="Adam Lehrhaupt - Award Winning Author Logo" />
                 </div>
+                <?php endif; ?>
             </a>
 <!--            <h1 class="head-text">--><?php //= get_bloginfo('name') ?><!--</h1>-->
             <h1 class="head-text">ADAM LEHRHAUPT</h1>
@@ -36,4 +37,5 @@
         </div>
     </header>
 
+    <main>
 

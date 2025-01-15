@@ -13,6 +13,7 @@ function al_load_folder_files( $folder = "" ): void
 }
 
 al_load_folder_files( 'classes' );
+al_load_folder_files( 'functions/shortcode' );
 
 // Actions
 add_action( 'wp_enqueue_scripts', 'FLChildTheme::enqueue_scripts', 1000 );

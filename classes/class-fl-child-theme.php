@@ -15,7 +15,7 @@ final class FLChildTheme {
     static public function enqueue_scripts(): void
     {
 	    wp_enqueue_style( 'fl-child-theme', FL_CHILD_THEME_URL . '/style.css' );
-        wp_enqueue_style( 'custom-style', get_theme_file_uri("/assets/css/style.css") );
+        wp_enqueue_style( 'custom-style', get_theme_file_uri("/assets/css/style.css"), [], null );
     }
 
     /**

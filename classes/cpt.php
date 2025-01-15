@@ -7,7 +7,7 @@ if( !class_exists( 'cpt' ) ) :
 
         private string $singular;
         private string $plural;
-        private mixed $icon;
+        private string $icon;
 
         public function __construct( $singular, $plural, $icon = null ) {
             $this->singular = ucwords( $singular );
