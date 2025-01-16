@@ -3,11 +3,13 @@
     <div class="main-footer-container" style="width: 100%; height: auto; background-color: #3A6D8C;">
         <div class="flex-container" style="width: 100%; display: flex; justify-content: center; align-items: flex-start;">
             <div class="left-logo-container" style="">
+                <a href="<?= site_url() ?>">
                 <div class="box" style="">
                     <?php if( $image = get_theme_mod('fl-logo-image') ): ?>
                         <img width="100%" height="100%" src="<?= $image ?>" alt="Adam Lehrhaupt - Award Winning Author Logo" />
                     <?php endif; ?>
                 </div>
+                </a>
             </div>
             <div class="right-container" style="">
                 <div class="links-container" style="display: flex; justify-content: flex-start; align-items: flex-start; flex-direction: column; row-gap: 10px;">
