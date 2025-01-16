@@ -73,6 +73,9 @@ header .sub-menu {
     padding: 20px !important;
     z-index: 1 !important;
 }
+header li:hover .sub-menu {
+    display: block !important;
+}
 header .sub-menu:hover {
     display: block !important;
 }
@@ -225,6 +228,7 @@ footer, .logo-container, .box {
     }
     .icon-flex-container, .links-container {
         width: 100% !important;
+        justify-content: center !important;
     }
     .links {
         font-size: 15px !important;
