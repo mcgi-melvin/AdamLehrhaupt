@@ -215,7 +215,6 @@ label {
 .nav-container {
     padding: 0 20px !important;
 }
-
 /*img {*/
 /*    display: none !important;*/
 /*    height: auto !important;*/
@@ -368,6 +367,9 @@ label {
     }
     .menu-main-nav-new-container > ul > li {
         font-size: 15px !important;
+    }
+    .icons-container-2 {
+
     }
 
 
