@@ -20,3 +20,8 @@ add_action( 'wp_enqueue_scripts', 'FLChildTheme::enqueue_scripts', 1000 );
 add_action( 'init', 'FLChildTheme::post_types', 1000 );
 add_action( 'init', 'FLChildTheme::taxonomies', 1000 );
 add_action( 'customize_register', 'FLChildTheme::customizer' );
+
+add_filter( 'style_loader_src', 'FLChildTheme::vc_remove_wp_ver_css_js', 15, 1 );
+add_filter( 'script_loader_src', 'FLChildTheme::vc_remove_wp_ver_css_js', 15, 1 );
+
+add_action('after_setup_theme','FLChildTheme::setup');

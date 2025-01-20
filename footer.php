@@ -65,16 +65,19 @@
                 </div>
             </div>
         </div>
-        <div class="nav-items-main-container" style="width: 100%; height: 60px; background-color: #001F3F; display: flex; align-items: center; justify-content: center;">
-            <div class="nav-items-flex-container" style="display: flex; justify-content: center; align-items: center; width: 100%;">
+        <div class="nav-items-main-container" style="width: 100%; min-height: 60px; padding: 10px 0; background-color: #001F3F; display: flex; align-items: center; justify-content: center; font-size: 17px;">
+            <div class="nav-items-flex-container" style="display: flex; justify-content: center; align-items: center; width: 100%; max-width: 1600px">
                 <div class="nav-container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-                    <div class="copyright-container" style="width: 100%; display: flex; justify-content: center; align-items: center;">
+                    <div class="copyright-container" style="display: flex; justify-content: center; align-items: center; text-align: left;">
                         <h5 class="copyright" style="font-size: 17px; color: #FFFFFF;">© <?= get_bloginfo('name') ?> <?= date('Y') ?>. All rights reserved.</h5>
                     </div>
-                    <div class="copyright-links-container" style="width: 100%; display: flex; justify-content: center; align-items: center; column-gap: 6px;">
+                    <div class="copyright-links-container" style="display: flex; justify-content: center; align-items: center; column-gap: 6px;">
                         <a class="terms" href="#" style="font-size: 17px; text-decoration: none; color: #FFFFFF;">Terms and Conditions</a>
                         <span style="color: white;">|</span>
                         <a class="policy" href="#" style="font-size: 17px; text-decoration: none; color: #FFFFFF;">Privacy Policy</a>
+                    </div>
+                    <div style="color: #fff;">
+                        Built by <a href="https://melvinlomibao.com" target="_blank" style="color: #fff">Melvin</a>
                     </div>
                 </div>
             </div>
