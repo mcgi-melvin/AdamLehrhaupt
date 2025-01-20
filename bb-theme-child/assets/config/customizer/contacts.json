@@ -1,0 +1,20 @@
+{
+    "controls": [
+        {
+            "id": "al_contact_email",
+            "label": "Email",
+            "section": "al_theme_contact",
+            "type": "theme_mod",
+            "capability": "",
+            "default": "info@adamlehrhaupt.com"
+        },
+        {
+            "id": "al_contact_phone",
+            "label": "Phone",
+            "section": "al_theme_contact",
+            "type": "theme_mod",
+            "capability": "",
+            "default": "123456789"
+        }
+    ]
+}
