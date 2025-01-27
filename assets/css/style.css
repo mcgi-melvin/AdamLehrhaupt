@@ -97,7 +97,7 @@ header .sub-menu > li > a:hover {
 header .menu {
     flex-direction: row;
     list-style: none;
-    gap: 30px;
+    gap: 20px;
 }
 .menu > li {
     font-size: 18px;
