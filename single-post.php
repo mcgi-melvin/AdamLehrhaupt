@@ -113,29 +113,6 @@
                                 </a>
                             </div>
                         </div>
-
-                        <div class="pya-blog-item">
-                            <div class="pya-blog-item--header">
-                                <div class="basic-info">
-                                    <span class="category">Uncategorized</span>
-                                    <h3 class="post-head">Lorem ipsum dolor sit amet.</h3>
-                                    <span style="color: #fff;">By Adam Lehrhaupt</span>
-                                </div>
-                                <div class="thumbnail">
-                                    <a href="#">
-                                        <img src="" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="pya-blog-item--body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi doloremque fuga, illo illum in ipsa ipsam iusto libero maxime quasi rem sunt tenetur voluptate.</p>
-                            </div>
-                            <div class="pya-blog-item--footer">
-                                <a href="#">
-                                    <span>Read More</span>
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
