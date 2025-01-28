@@ -9,7 +9,7 @@
                     <p>Posted by Adam Lehrhaupt</p>
                     <p>January 21, 2025</p>
                 </div>
-                <div class="single-blog-image-container" style="background: #eaeaea; width: 100%; height: 40vh;">
+                <div class="single-blog-image-container" style="">
                     <img src="" alt="">
                 </div>
                 <div class="single-blog-icons-container" style="display: flex; justify-content: center; align-items: center; flex-direction: row; width: 100%;">
@@ -149,6 +149,11 @@
         line-height: 1.4;
         margin: 0;
     }
+    .single-blog-image-container {
+        height: 80vh;
+        background: #eaeaea;
+        width: 100%;
+    }
     .single-blog-image-container img {
         height: 100%;
         object-fit: cover;
@@ -225,7 +230,7 @@
             font-size: 13px;
         }
         .share-t {
-            font-size: 13px !important;
+            font-size: 14px !important;
         }
         .share-container {
             column-gap: 10px;
@@ -243,6 +248,9 @@
         .share-container {
             column-gap: 10px !important;
         }
+        .single-blog-image-container {
+            height: 30vh !important;
+        }
 
 
     }
@@ -250,6 +258,9 @@
         .post-head {
             font-size: 20px;
             margin: 10px 0;
+        }
+        .single-blog-image-container {
+            height: 40vh;
         }
 
     }
